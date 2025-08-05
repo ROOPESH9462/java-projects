@@ -1,0 +1,20 @@
+Java Console To-Do List
+A simple, yet fully functional to-do list application that runs in the command line. This project was built with pure Java to demonstrate core programming principles, including object-oriented design, data structures, and user input handling.
+
+Key Features
+Create Tasks: Users can add new tasks with a custom description to their list.
+View All Tasks: Displays a numbered list of all current tasks, showing [X] for completed tasks and [ ] for pending ones.
+Mark Tasks as Complete: Allows users to update the status of any task to "done."
+Delete Tasks: Provides the functionality to permanently remove a task from the list.
+Interactive Menu: A persistent, user-friendly menu guides the user through all available actions.
+
+Core Concepts Demonstrated
+Object-Oriented Programming: A custom task class was created to act as a blueprint for task objects, encapsulating both data (description, status) and behavior (mark as done).
+ArrayList Data Structure: Used to efficiently store and manage a dynamic collection of task objects.
+User Input: The Scanner class is used to handle all user input from the console.
+Control Flow: The application logic is driven by while loops, switch statements for menu navigation, and if-else conditions for input validation.
+
+How to Use
+Setup: Place todolist.java and task.java in the same directory. You need a Java JDK installed.
+Compile: Open your terminal in that directory and run:  javac todolist.java
+Run: Execute the program with:  java todolist
