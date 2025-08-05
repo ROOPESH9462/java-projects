@@ -1,7 +1,7 @@
 Simple Number Guessing Game in Java
 This is a classic command-line number guessing game built in Java. The program generates a secret random number, and the player tries to guess it. The game provides feedback after each guess, guiding the player until they find the correct number.
 
-## ✨ Features
+## Features
 Random Number Generation: A random integer between 1 and 100 is generated for each game.
 User Input: Prompts the user to enter their guess via the console.
 Guess Feedback: Tells the player if their guess is too high or too low.
